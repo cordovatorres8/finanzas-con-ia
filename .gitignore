@@ -1,0 +1,23 @@
+# Credenciales y configuración local: nunca se suben
+.env
+.env.*
+*.keystore
+*.jks
+signing-key-info.txt
+assetlinks.json
+.clasp.json
+.clasprc.json
+secrets*
+credenciales*
+
+# Tu versión personal del código (con tu TOKEN y CORREO reales)
+*personal*
+*_mio.*
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+node_modules/
